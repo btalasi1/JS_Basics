@@ -9,4 +9,6 @@ function increment() {
     console.log(count)
 }
 
+document.getElementById("count-el").innerText = count
+
 
